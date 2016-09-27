@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2016 by anonymous (http://jsbin.com/laqusezesa/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+<script id="jsbin-javascript">
+var fruits = ["apple", "cherry", "pineapple", "orange", "strawberry",
+              "plum", "raseberry"];
+var vegtables = ["carrot", "peas", "beans", "potatoe", "tomatoe"];
+
+var foodmix = [fruits, vegtables];
+
+
+for(i=0;i,i<foodmix.length;i++){
+  console.log(foodmix[i]);
+}
+
+console.log(foodmix.toString());
+
+vegtables.pop();
+
+console.log(vegtables);
+
+
+
+
+function random(min, max){
+  var num = Math.random()*(max-min) + min;
+  return num / 1;
+}
+
+
+
+//console.log(foodmix[0][random(1,3)]);
+console.log(random(1,3));
+</script>
+</body>
+</html>
