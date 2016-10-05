@@ -1,0 +1,36 @@
+var person1 = {
+  fName: "Seria",
+  lName: "Geltio",
+  age: "23",
+  hairCol: "brown"
+};
+
+/*
+var fruits = {
+  gold: "Golden Apple",
+  gMa: "Granny Smith",
+  red: "Red Apple",
+  gala: "Gala Apple"
+}
+*/
+
+var fruits = {
+  apple: ["Golden Apple", "Granny Smith Apple", "Red Apple", "Gala Apple"],
+  cherry: ["Sweet Cherry", "Tart Cherry"],
+  orange: ["Blood Orange", "Mandarin Orange", "Clementine", "Tangerine"]
+}
+
+
+
+/*
+function fullName(){
+  return person1.fName() + " " + person1.lName();
+}
+
+alert(fullName);
+*/
+
+
+alert(person1.fName);
+
+alert(fruits.orange[1]);
