@@ -1,0 +1,36 @@
+Using System;
+	namespace Loops {
+  
+	  class ForLoop {
+	    static void Main (string[] args) {
+		    for (i=0; i<10; i++) {
+		      Console.WriteLine(“The current number is; “ + i + “.”);
+		    }
+      }
+    }
+        
+    class IfLoop {
+      static void Main (string[] args) {
+        string numberZ = “one, two”;
+          if (numberZ = “three, four”){
+            Console.WriteLine(“The numbers are three and four.”);
+          }else if (numberZ = “one, two”){
+            Console.WriteLine(“The numers are one and two.”);
+          }else{
+            Console.WriteLine(“The numbers are unknown.”);
+          }
+        }
+      }
+        
+        
+    class WhileLoop {
+      static void Main (string[] args) {
+        int i = 17;
+        While ( i > 5) {
+          Console.WriteLine(“The current number is; “ + i + “.”);
+          i--;
+        }
+      }
+    }  
+                
+}
